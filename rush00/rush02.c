@@ -49,7 +49,7 @@ void drawSquare(int x, int y)
 
 void rush(int x, int y)
 {
-	if (x > 1 && y > 1)
+	if (x > 0 && y > 0)
 	{
 		drawSquare(x, y);
 	}
