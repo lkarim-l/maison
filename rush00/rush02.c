@@ -39,7 +39,7 @@ void drawSquare(int x, int y)
 		i = 0;
 		while (i < x)
 		{
-			conditions(x,y,i,j);
+			conditions(x, y, i, j);
 			i++;
 		}
 		ft_putchar('\n');
