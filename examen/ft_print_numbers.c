@@ -1,8 +1,6 @@
 #include <unistd.h>
 
-void	ft_print_numbers(void);
-
-int	main()
+void	ft_print_numbers(void)
 {
 	char c = 48;
 	while(c<='9')
@@ -10,4 +8,10 @@ int	main()
 		write(1, &c, 1);
 	c++;
 	}
+}
+
+int	main(void)
+{
+	ft_print_numbers();
+	return 0;
 }
