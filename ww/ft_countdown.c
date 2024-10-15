@@ -14,6 +14,6 @@ int	ft_countdown()
 
 int main()
 {
-	ftcountdown();
+	ft_countdown();
 	return 0;
 }
